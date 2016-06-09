@@ -1,3 +1,3 @@
-I just used one slider in the app. It is for ajusting the threshold for color detection
+I just used one slider in the app. It is for ajusting the threshold for color detection.
 
-COM is sent to PIC. The point is at 200dp of the surface texture. The PIC ccapture the value of COM to determing if the cart is on the right track. If the COM is smaller than 320, it means the wheels should turn left and vice versa. The PWM is controlled by how much percentage of the COM is moved to the left or to the right. If it if in the middle, the cart will drive on full speed
+COM is sent to PIC. The point is at 200dp of the surface texture. The PIC captures the value of COM to determine if the cart is on the right track. If the COM is smaller than 320, it means the wheels should turn left and vice versa. The PWM is controlled by how much percentage of the COM is moved to the left or to the right. If it if in the middle, the cart will drive on full speed
