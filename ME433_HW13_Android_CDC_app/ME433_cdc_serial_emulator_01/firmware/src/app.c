@@ -458,11 +458,10 @@ void APP_Tasks ( void )
                         pos++;
                     }
                 }
-                if (qq >= 320)
-                    OC2RS = 6000 * (640 - qq) / 320; 
                
-                else if (qq < 320)
-                    OC1RS = 6000 * qq / 320; 
+                OC2RS = 6000 * qq / 200; 
+               
+               
                 
             }
 
